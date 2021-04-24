@@ -13,8 +13,8 @@ See [doc/gpl-2.0.txt](doc/gpl-2.0.txt) for more information.
 
 * Database statistics in this release: [UDPATE BEFORE RELEASE]
   * USA: 259 files
-  * PAL: 59 files
-  * JPN: 7 files
+  * PAL: 60 files
+  * JPN: 10 files
   * KOR: 0 files :(
   * Unlicensed: 1 file
   * Homebrew: 1 file
