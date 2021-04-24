@@ -12,8 +12,8 @@ See [doc/gpl-2.0.txt](doc/gpl-2.0.txt) for more information.
 (released 2018/??/??)
 
 * Database statistics in this release: [UDPATE BEFORE RELEASE]
-  * USA: 260 files
-  * PAL: 61 files
+  * USA: 265 files
+  * PAL: 68 files
   * JPN: 10 files
   * KOR: 0 files :(
   * Unlicensed: 1 file
