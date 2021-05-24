@@ -107,6 +107,77 @@
 		</dirEntry>
 	</file>
 	<file>
+		<gameName>All-Star Baseball 2003</gameName>
+		<fileInfo>Save File</fileInfo>
+		<id6>GA3JB0</id6>
+		<search>
+			<address>0x0000</address>
+			<gameDesc>^All-Star Baseball 2003$</gameDesc>
+			<fileDesc>^Options$</fileDesc>
+		</search>
+		<dirEntry>
+			<filename>ASB2003Settings0</filename>
+			<bannerFormat>0x00</bannerFormat>
+			<iconAddress>0x0040</iconAddress>
+			<iconFormat>0x0555</iconFormat>
+			<iconSpeed>0x0555</iconSpeed>
+			<permission>0x04</permission>
+			<length>1</length>
+		</dirEntry>
+	</file>
+	<file>
+		<gameName>All-Star Baseball 2003</gameName>
+		<fileInfo>Save File</fileInfo>
+		<id6>GA3JB0</id6>
+		<search>
+			<address>0x0000</address>
+			<gameDesc>^All-Star Baseball 2003$</gameDesc>
+			<fileDesc>^Season(\d{1,2}) .*$</fileDesc>
+		</search>
+		<variables>
+		<variable id="F1">
+			<useAs>filename</useAs>
+			<type>number</type>
+			<add>-1</add>
+		</variable>
+		</variables>
+		<dirEntry>
+			<filename>ASB2003Season${F1}</filename>
+			<bannerFormat>0x00</bannerFormat>
+			<iconAddress>0x0040</iconAddress>
+			<iconFormat>0x0555</iconFormat>
+			<iconSpeed>0x0555</iconSpeed>
+			<permission>0x04</permission>
+			<length>58</length>
+		</dirEntry>
+	</file>
+	<file>
+		<gameName>All-Star Baseball 2003</gameName>
+		<fileInfo>Save File</fileInfo>
+		<id6>GA3JB0</id6>
+		<search>
+			<address>0x0000</address>
+			<gameDesc>^All-Star Baseball 2003$</gameDesc>
+			<fileDesc>^Series(\d{1,2}) .*$</fileDesc>
+		</search>
+		<variables>
+		<variable id="F1">
+			<useAs>filename</useAs>
+			<type>number</type>
+			<add>-1</add>
+		</variable>
+		</variables>
+		<dirEntry>
+			<filename>ASB2003Series${F1}</filename>
+			<bannerFormat>0x00</bannerFormat>
+			<iconAddress>0x0040</iconAddress>
+			<iconFormat>0x0555</iconFormat>
+			<iconSpeed>0x0555</iconSpeed>
+			<permission>0x04</permission>
+			<length>31</length>
+		</dirEntry>
+	</file>
+	<file>
 		<!-- Animal Forest e+ (aka Animal Crossing e+) -->
 		<gameName>Doubutsu no Mori e+</gameName>
 		<fileInfo>Town File</fileInfo>
